@@ -1,2 +1,7 @@
-# Cipher_Decoder
-Decoder for various ciphers
+There are 2 main portions:-
+
+main
+This folder contains the code that takes the input and output. This calls the functions in order to decode various ciphers as well.
+
+d_coder
+This has all the functions and acts as a self-made library for various ciphers. The functions here are then called in main.py. The library makes use of unicode values of each alphabet and then manipulates them accordingly in order to calculate a new value. The value is then converted back to an alphabet.  
